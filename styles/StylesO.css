@@ -17,6 +17,8 @@ Header{
   color: #F0F0F0;
   padding: 10px 20px;
   border-radius: 10px;
+  border: solid 2px;
+  border-color: black;
   display: flex;
   flex-direction: column;
   margin: 10px auto;
@@ -34,7 +36,7 @@ Header{
   width: 130px;
   height: 130px;
   cursor: pointer;
-  margin: -300px auto 0 1100px;
+  margin: -300px auto 50px 1100px;
 }
 
 .dropdown-menu a {
@@ -82,6 +84,8 @@ margin-bottom: 9px;
   background-color: #3c4a81;
   color: white;
   border-radius: 20px;
+  border: solid 2px;
+  border-color: black;
   margin: 20px;
   width: 420px;
   padding: 10px;
@@ -93,6 +97,8 @@ margin-bottom: 9px;
   background-color: #3c4a81;
   color: white;
   border-radius: 20px;
+  border: solid 2px;
+  border-color: black;
   margin: 20px;
   width: 420px;
   padding: 10px;
@@ -117,6 +123,16 @@ margin-bottom: 9px;
 	align-self: center;
 	justify-content: center;
 	
+}
+
+.nieuws-section a {
+color: black;
+background-color: #EA5b0b;
+margin-top: 16px;
+border: solid 4px;
+border-color: #EA5b0b;
+border-radius: 8px;
+
 }
 
 footer {

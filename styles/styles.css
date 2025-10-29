@@ -17,6 +17,8 @@ Header{
   color: #F0F0F0;
   padding: 10px 20px;
   border-radius: 10px;
+  border: solid 2px;
+  border-color: black;
   display: flex;
   flex-direction: column;
   margin: 10px auto;
@@ -34,7 +36,7 @@ Header{
   width: 130px;
   height: 130px;
   cursor: pointer;
-  margin: -300px auto 0 1100px;
+  margin: -300px auto 50px 1100px;
 }
 
 .dropdown-menu a {
@@ -42,6 +44,7 @@ display: block;
 color: black;
 padding: 10px 15px;
 text-decoration: none;
+overflow: hidden;
 }
 
 .dropdown-items {
@@ -50,7 +53,7 @@ background-color: #B4BCD0;
 position: absolute;
 min-width: 100px;
 box-shadow: 2px 2px 5px rgb(124, 119, 119);
-margin: -5px auto 0 1110px;
+margin: -53px auto 0px 1110px;
 transition: all .5s ease;
 }
 
@@ -61,7 +64,9 @@ transform: translateY(0);
 }
 
 .dropdown a:hover {
-background-color: #C6C9D2;  
+background-color: #C6C9D2 !important;
+color: #C6C9D2;
+transition: all .5s ease;  
 transform: translateY(0);
 }
 
@@ -87,6 +92,8 @@ margin-bottom: 9px;
   background-color: #085b64;
   color: white;
   border-radius: 20px;
+  border: solid 2px;
+  border-color: black;
   margin: 20px;
   width: 420px;
   padding: 10px;
@@ -97,6 +104,7 @@ margin-bottom: 9px;
 .right-article{
   background-color: #8ea34b;
   color: black;
+  border: solid 1px;
   border-radius: 20px;
   margin: 20px;
   width: 420px;
