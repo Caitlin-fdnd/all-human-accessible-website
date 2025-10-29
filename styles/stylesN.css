@@ -80,6 +80,10 @@ margin-bottom: 9px;
   margin-bottom: 0px;
 }
 
+.nieuws-section p {
+  margin-bottom: 8px;
+}
+
 .left-article{
   background-color: #8ea34b;
   color: rgb(0, 0, 0);
