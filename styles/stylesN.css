@@ -13,8 +13,8 @@ body{
 
 Header{
   text-align: center;
-  background-color: #3c4a81;
-  color: #F0F0F0;
+  background-color: #8ea34b;
+  color: #010b17;
   padding: 10px 20px;
   border-radius: 10px;
   display: flex;
@@ -46,10 +46,10 @@ text-decoration: none;
 
 .dropdown-items {
 display: none;
-background-color: #B4BCD0;
+background-color: #aab38b;
 position: absolute;
 min-width: 100px;
-box-shadow: 2px 2px 5px rgb(124, 119, 119);
+box-shadow: 2px 2px 5px black;
 margin: -5px auto 0 1110px;
 transition: all .5s ease;
 }
@@ -78,30 +78,25 @@ margin-bottom: 9px;
   margin-bottom: 0px;
 }
 
-.nieuws-section p {
-
-  margin-bottom: 8px;
-}
-
 .left-article{
-  background-color: #085b64;
-  color: white;
+  background-color: #8ea34b;
+  color: rgb(0, 0, 0);
   border-radius: 20px;
   margin: 20px;
   width: 420px;
   padding: 10px;
-  box-shadow: #9c9b9b 3px 10px 15px ;
+  box-shadow: #C1C1C1 3px 10px 15px ;
   word-wrap: break-word;
 }
 
 .right-article{
   background-color: #8ea34b;
-  color: black;
+  color: rgb(0, 0, 0);
   border-radius: 20px;
   margin: 20px;
   width: 420px;
   padding: 10px;
-  box-shadow: #9c9b9b 3px 10px 15px ;
+  box-shadow: #C1C1C1 3px 10px 15px ;
   word-wrap: break-word;
 }
 
@@ -111,31 +106,16 @@ margin-bottom: 9px;
 
 .right-article @media only screen and (min-width: 450px) {
 	flex-wrap: wrap;
+  margin-left: auto;
+  margin-right: 40px;
 }
 
- .nieuws-section {
+.nieuws-section {
     display: flex;
     flex-direction: column;
 	align-self: center;
 	justify-content: center;
 	
-}
-
-/*@media (min-width: 450px) {
-.nieuws-section {
-
-
-}
-}*/
-
-.nieuws-section a {
-color: black;
-background-color: #EA5b0b;
-margin-top: 16px;
-border: solid 4px;
-border-color: #EA5b0b;
-border-radius: 8px;
-
 }
 
 footer {
