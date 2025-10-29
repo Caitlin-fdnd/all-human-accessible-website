@@ -30,6 +30,39 @@ Header{
 	  
  }
 
+.dropdown-img {
+box-shadow: #C7C7C7 3px 10px 15px;
+  width: 130px;
+  height: 130px;
+  border: 1px solid black;
+  cursor: pointer;
+  margin: -300px auto 0 1100px;
+}
+
+.dropdown-menu a {
+display: block;
+color: black;
+padding: 10px 15px;
+text-decoration: none;
+}
+
+.dropdown-items {
+display: none;
+background-color: #B4BCD0;
+position: absolute;
+min-width: 100px;
+box-shadow: 2px 2px 5px black;
+margin: -5px auto 0 1110px;
+}
+
+.dropdown-menu:hover .dropdown-items{
+display: block;
+}
+
+.dropdown a:hover {
+background-color: #C6C9D2;  
+}
+
 H2 {
 margin-bottom: 9px;	
 }
@@ -93,8 +126,8 @@ margin-bottom: 9px;
 
 .right-article @media only screen and (min-width: 450px) {
 	flex-wrap: wrap;
-    margin-left: auto;
-    margin-right: 40px;
+  margin-left: auto;
+  margin-right: 40px;
 }
 
 .nieuws-section {
