@@ -57,6 +57,11 @@ margin: -53px auto 0px 1110px;
 transition: all .5s ease;
 }
 
+.dropdown-menu:focus-within .dropdown-items{
+  display: block;
+}
+
+
 .dropdown-menu:hover .dropdown-items{
 display: block;
 transition: all .5s ease;
